@@ -1,5 +1,13 @@
-import Portfolio from './components/Portfolio';
+// File: src/App.jsx
+import React from "react";
+import Portfolio from "./Portfolio";
+
 function App() {
-  return <Portfolio />;
+  return (
+    <main>
+      <Portfolio />
+    </main>
+  );
 }
+
 export default App;
